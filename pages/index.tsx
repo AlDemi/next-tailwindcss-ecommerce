@@ -11,13 +11,16 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>
+        <h1 className="text-4xl text-center font-bold">
           Welcome to Next App!
         </h1>
       </main>
 
       <footer>
-        Powered by{' '}
+        <p className="text-xs text-center text-slate-500">
+
+          Powered by{' '}
+        </p>
       </footer>
     </div>
   );
